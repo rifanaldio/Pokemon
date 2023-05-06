@@ -35,7 +35,7 @@ export default class Search extends React.Component{
           <input className='search__input' 
             type="search"
             onChange={this.handleSearch}
-            placeholder='Search your pokemon ... 😏'
+            placeholder='Search your pokemon BY NATURE (example : grass) ...'
             onKeyDown={this.handleClickSearch}
             autoFocus
           />

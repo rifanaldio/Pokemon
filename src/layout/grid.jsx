@@ -1,33 +1,36 @@
 import React from 'react';
 import Card from '../components/card';
 
-export default class Grid extends React.Component{
+export default class Grid extends React.Component {
 
-  constructor(props){
+  constructor(props) {
     super(props);
+    console.log(props);
+
     this.handleButton = this.handleButton.bind(this);
   }
 
-  handleButton(){
+  handleButton() {
     this.props.next();
   }
-  
-  render(){
 
-    return(
-      <div className='grid'>
+  render() {
+    return (
+      <div key={"grid"} className='grid'>
         <div className='grid__pokemon'>
-        {
-          this.props.pokemons.map(poke=> (           
-            <Card key={poke.name} pokemon={poke}></Card>
-          ))
-        }
+          {
+            this.props.pokemons.map(poke => (
+              <Card key={poke.name} pokemon={poke}></Card>
+
+            ))
+          }
         </div>
         {
-          (this.props.pokemons.length >= 20) && 
-            <div className="grid__wrapper-button">
-              <button className='grid__button' type='button' onClick={this.handleButton}>Show more</button>
-            </div>
+          (this.props.pokemons.length >= 20 && !this.props.search) ? 
+          <div className="grid__wrapper-button">
+            <button className='grid__button' type='button' onClick={this.handleButton}>Show more</button>
+          </div>
+           : null
         }
       </div>
     )

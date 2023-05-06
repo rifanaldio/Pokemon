@@ -5,7 +5,7 @@ export default class Footer extends React.Component{
   render(){
     return(
       <footer className='footer'>
-        POKEAPI - 2022 
+        Rifan Aldio
       </footer>
     )
   }

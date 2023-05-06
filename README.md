@@ -10,25 +10,6 @@ To build this app I used [ReactJS](https://reactjs.org/) v18, CSS, and HTML.
 ## Screenshots
 
 Here are some screenshots of the app's UI based on the components shown below
-
-### Search Component
-![Image](/src/assets/screenshots/search.PNG)
-
-### Grid Component
-
-![Image](/src/assets/screenshots/grid.PNG)
-
-### Modal Component
-Charizard               |  Blastoise  |  Venusaur
-:-------------------------:|:-------------------------:|:-------------------------:
-![Image](/src/assets/screenshots/card.PNG?raw=true) | ![Image](/src/assets/screenshots/card-blastoise.PNG?raw=true) | ![Image](/src/assets/screenshots/card-venasaur.PNG?raw=true)
-
-## Demo
-
-You can see it deployed [here](https://onnichan.github.io/pokeapi-react/) 👈
-
-## Do you want to use or run this project locally?
-
 Just follow this steps:
 
 <ul>
@@ -49,6 +30,6 @@ Just follow this steps:
 
 
 ## Contact
-You can follow me on my [Linkedin](https://www.linkedin.com/in/walter-daniel-huaynapata-aguilar-391041197/).
+You can follow me on my [Linkedin](https://www.linkedin.com/in/rifan-aldio-196b54199/).
 
 

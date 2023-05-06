@@ -1,6 +1,5 @@
 {
   "name": "pokeapi",
-  "homepage": "https://onnichan.github.io/pokeapi-react/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
