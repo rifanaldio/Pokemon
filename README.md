@@ -11,7 +11,7 @@ To build this app I used [ReactJS](https://reactjs.org/) v18, CSS, and HTML.
   <li>In your system console write </li>
   
   `git init`<br/>
-  `git clone https://github.com/Onnichan/pokeapi-react.git`
+  `git clone https://github.com/rifanaldio/Pokemon.git`
 
   <li>Then you will have to type the following command, depending on what you have installed, npm or yarn.</li>
   
